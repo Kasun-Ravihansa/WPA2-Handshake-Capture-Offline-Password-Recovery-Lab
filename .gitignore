@@ -1,0 +1,32 @@
+# Wi-Fi packet captures
+*.cap
+*.pcap
+*.pcapng
+
+# Wordlists and password candidates
+wordlist*
+*wordlist*
+*.dict
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Temporary and generated files
+*.tmp
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
